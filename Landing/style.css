@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p {
+	animation-duration: 3s;
+	animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+	from {
+	  margin-left: 100%;
+	  width: 300%;
+	}
+  
+	to {
+	  margin-left: 0%;
+	  width: 100%;
+	}
+  }
+
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+
+.header {
+	background-color: purple;
+	border-bottom: 4px solid #fff;
+	padding: 20px 0;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 60px;
+	height: 50px;
+	background: no-repeat center url(/images/logo.png);
+	background-size: contain;
+}
+
+.menu a {
+	display: inline-block;
+	color: #fff;
+	margin: 0 20px;
+	text-decoration: none;
+}
+
+.image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 650px;
+	background: no-repeat url(/images/main.jpg);
+	background-size: cover;
+	
+}
+
+.image__title {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.image__button {
+	width: 200px;
+	padding: 10px;
+	margin: 20px auto 0px;
+	background-color: purple;
+	color: #fff;
+	text-align: center;
+	border-left: 4px solid yellow;
+}
+
+.slogan {
+	color: #fff;
+	height: 50px;
+	background-color: purple;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.content {
+	padding: 20px 60px;
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;
+
+}
+
+.content p {
+	margin: 40px 0;
+}
+
+
+
+
+
+.grid {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid purple;
+
+
+}
+
+
+.grid-item {
+	width: 33.333%;
+	height: 300px;
+	border: 1px solid purple;
+
+
+}
